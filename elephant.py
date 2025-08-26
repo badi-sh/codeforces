@@ -1,0 +1,18 @@
+"""
+TAKE INPUT OF CO-ORDINATE (SINGLE DIGIT)
+
+5 POSITIONS -> PICK OPTIMAL POSITION TO REACH CO-ORDINATE
+
+NO. OF STEPS TO REACH CO-ORDINATE
+
+X
+72
+1 2 3 4 5
+1
+"""
+x = int(input())
+val = x//5
+if x % 5 != 0:
+    val += 1
+
+print(val)
